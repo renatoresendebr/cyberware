@@ -1,0 +1,69 @@
+Última atualização: 3 de outubro de 2026.
+
+1. RESPONSÁVEL E ABRANGÊNCIA
+
+Esta política descreve o tratamento de informações nos aplicativos móveis mantidos pela Cyberware Tecnologias LTDA e publicados na Google Play. Ela abrange todos os nossos apps. Cada seção se aplica quando o recurso ou serviço correspondente está presente no aplicativo que você utiliza. Exemplos específicos do Imagens com Frases são identificados no texto. Contato para assuntos de privacidade: cyberware.tecnologias@gmail.com.
+
+2. INFORMAÇÕES TRATADAS PELO APLICATIVO
+
+O Imagens com Frases funciona sem cadastro ou login e não solicita nome, telefone, endereço, documentos ou dados de pagamento para utilizar suas funções. Outros apps podem utilizar autenticação técnica anônima, conforme descrito abaixo. A ausência de cadastro pessoal não significa ausência de tratamento de dados: os serviços utilizados recebem informações técnicas e identificadores.
+
+• Conteúdo e conexão: apps com conteúdo remoto fazem solicitações de rede para consultar catálogos e carregar textos, imagens ou vídeos. Cloud Firestore e Cloud Storage for Firebase, serviços do Google, são utilizados nos apps que possuem essas integrações. As solicitações incluem endereço IP e referências ao conteúdo solicitado. No Imagens com Frases, não há envio de fotos pessoais ou publicações do usuário para esse catálogo.
+• Dados locais: preferências, favoritos, registros de download, referências de conteúdo e controles de notificações ou avaliação ficam no aparelho conforme os recursos de cada app. No Imagens com Frases, isso inclui a referência e a data da imagem do dia, a data, a quantidade e os códigos dos downloads recentes e as datas ou registros de solicitações de permissão e avaliação; nosso código não envia esses registros como histórico pessoal para o Firestore. Apps também mantêm cópias de conteúdo em cache para evitar downloads repetidos.
+• Acesso anônimo: alguns apps usam Firebase Authentication para criar uma identidade técnica anônima e permitir acesso ao conteúdo, sem exigir e-mail ou senha do usuário. O serviço trata um identificador de usuário, endereço IP e informações técnicas de conexão para autenticação, segurança e prevenção de abuso.
+• Região: no Imagens com Frases, consultamos o país da rede móvel, do SIM ou da configuração regional do aparelho para definir a disponibilidade de recursos. Essa consulta não usa GPS nem exige acesso à localização precisa.
+• Atendimento: se você enviar um e-mail, receberemos seu endereço de e-mail e as informações que decidir incluir, para responder à solicitação.
+
+3. ANÚNCIOS
+
+Os apps que exibem anúncios utilizam Google AdMob, por meio do Google Mobile Ads SDK. Os anúncios podem ser personalizados conforme a configuração do app, do serviço e do dispositivo. O SDK coleta e compartilha automaticamente endereço IP, que pode indicar localização aproximada, interações como abertura do app e toques, informações de diagnóstico e identificadores de dispositivo ou conta, incluindo o identificador de publicidade do Android e o App Set ID, quando disponíveis. Esses dados são usados para publicidade, medição e prevenção de fraude.
+
+Alguns apps também integram Pangle como provedor de anúncios por mediação. Quando utilizado, esse serviço pode tratar identificadores, informações do dispositivo, IP e interações com anúncios para publicidade, medição e segurança, conforme sua política.
+
+No Imagens com Frases, enviamos também palavras-chave e uma referência à categoria exibida para contextualizar anúncios. Você pode gerenciar o identificador de publicidade e as opções de privacidade de anúncios nas configurações do Android, conforme a versão do sistema. Esses controles não interrompem necessariamente todo o tratamento de dados pelo serviço de anúncios. Se houver opções de consentimento ou privacidade dentro do app, você também poderá utilizá-las; a existência e as exigências desse fluxo dependem do app e da região.
+
+4. NOTIFICAÇÕES
+
+Os apps com notificações usam Firebase Cloud Messaging para enviar informações sobre conteúdo, novidades ou datas comemorativas. O serviço utiliza identificadores de instalação ou de registro para direcionar mensagens. O registro técnico pode ocorrer antes da permissão para exibir notificações. No Imagens com Frases, ocorre na abertura do app nos países em que o recurso está disponível; no Android 13 ou superior, a permissão é solicitada ao acessar a Imagem do Dia.
+
+Você pode recusar a permissão ou desativar as notificações nas configurações do Android e continuar usando as demais funções. Desativar a exibição de notificações não equivale a excluir os identificadores mantidos pelo Firebase.
+
+5. DOWNLOADS, PERMISSÕES E COMPARTILHAMENTO
+
+Apps com download criam arquivos de imagem ou vídeo no aparelho quando você solicita o salvamento. Permissões de leitura ou gravação no armazenamento podem ser solicitadas conforme o app, a versão do Android e a operação. Você pode revisar ou revogar permissões nos ajustes do sistema; recusá-las pode limitar a função correspondente. No Imagens com Frases, o download cria um JPEG na galeria, exige permissão de gravação somente no Android 8 e 9 e não oferece seleção ou envio de fotos pessoais, nem solicita câmera, microfone, contatos ou localização precisa.
+
+Ao compartilhar, o aplicativo escolhido por você recebe acesso ao conteúdo selecionado, como imagem, vídeo, texto ou link. Esse envio não concede à Cyberware acesso à sua conta, senha, contatos ou conversas no WhatsApp, Facebook, Instagram, Telegram ou em outros destinos. O tratamento realizado pelo destino segue a política daquele serviço. Quando oferecida, a avaliação pelo Google Play segue as regras e a política do Google.
+
+6. FINALIDADES E PRESTADORES DE SERVIÇO
+
+Tratamos informações para entregar conteúdo, carregar e salvar arquivos, viabilizar o compartilhamento, controlar limites e preferências, autenticar acesso técnico quando necessário, disponibilizar notificações, financiar serviços com anúncios e atender solicitações. No Imagens com Frases, a versão revisada em outubro de 2026 não utiliza Firebase Analytics ou Firebase Crashlytics. A medição e os diagnósticos próprios dos serviços de anúncios continuam existindo.
+
+Os prestadores identificados nesta política recebem os dados necessários às funções utilizadas em cada app. O compartilhamento com o destino de conteúdo ocorre por sua escolha. Dados também podem ser tratados para cumprir obrigações legais e proteger direitos. Cada operação deve observar a base legal aplicável e, quando exigido, consentimento específico. A leitura desta política ou a concordância com os Termos de Uso não constitui consentimento genérico para todas as finalidades.
+
+Consulte as informações dos serviços utilizados:
+• Privacidade do Google: https://policies.google.com/privacy
+• Publicidade do Google: https://policies.google.com/technologies/ads
+• Privacidade e segurança no Firebase: https://firebase.google.com/support/privacy
+• Privacidade para usuários da Pangle: https://www.pangleglobal.com/privacy/enduser
+
+7. SEGURANÇA E TRANSFERÊNCIAS INTERNACIONAIS
+
+Os serviços Google AdMob e Firebase utilizam criptografia em trânsito nas conexões de seus SDKs. O cache e as preferências ficam no armazenamento do app; arquivos salvos na galeria podem ser acessados conforme as permissões e configurações do aparelho. Os prestadores podem processar informações em servidores de outros países, conforme seus termos, políticas e os mecanismos de transferência aplicáveis.
+
+8. CONSERVAÇÃO E EXCLUSÃO
+
+Os registros locais permanecem até serem substituídos pelo funcionamento do app, removidos pela limpeza dos dados ou apagados com sua desinstalação. O cache pode ser removido pelo Android ou pela opção de limpar cache. Conforme o app e as configurações do Android, dados locais podem integrar backup ou transferência de dispositivo e ser restaurados; no Imagens com Frases, o backup está desativado. Arquivos salvos na galeria e cópias compartilhadas não são apagados ao limpar dados ou desinstalar; você deve removê-los na galeria ou no serviço de destino.
+
+A conservação de identificadores, inclusive identidades técnicas anônimas, e registros nos prestadores segue as finalidades e os prazos descritos nas políticas desses serviços. Limpar dados ou desinstalar o app não garante exclusão imediata dos registros nos servidores. Informações enviadas ao atendimento são mantidas enquanto necessárias à resposta, ao cumprimento de obrigações legais ou à defesa de direitos. Você pode solicitar informações sobre conservação e exclusão pelo contato desta política.
+
+9. SEUS DIREITOS
+
+Conforme a legislação aplicável, você pode solicitar confirmação e acesso aos dados, correção, informações sobre compartilhamento, portabilidade quando cabível, anonimização, bloqueio ou exclusão de dados e revogação de consentimento, quando essa for a base do tratamento. Também pode se opor a tratamento irregular e apresentar reclamação à autoridade competente, como a Autoridade Nacional de Proteção de Dados no Brasil.
+
+Envie sua solicitação para cyberware.tecnologias@gmail.com, indicando o nome do aplicativo. Podemos solicitar informações estritamente necessárias para verificar a solicitação e localizar dados, especialmente quando o app funciona sem cadastro pessoal ou com identificação anônima. Pedidos serão analisados conforme as obrigações e os limites legais e técnicos aplicáveis; dados tratados pelos prestadores também podem exigir os procedimentos próprios desses serviços.
+
+10. IDADE E ALTERAÇÕES
+
+Observe a classificação indicativa, o público-alvo e os Termos de Uso de cada app. O Imagens com Frases exige pelo menos 13 anos nos seus termos e não possui verificação de idade. Menores devem utilizar os serviços com orientação e autorização dos responsáveis, observadas as regras locais. Responsáveis podem entrar em contato para esclarecer ou solicitar providências sobre o tratamento de dados de menores.
+
+Esta política pode ser atualizada para refletir mudanças nos aplicativos ou nos serviços utilizados. A data acima identifica a versão do texto. Mudanças relevantes serão informadas pelos meios disponíveis, e novo consentimento será solicitado quando exigido pela legislação.

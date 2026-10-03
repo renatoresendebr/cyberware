@@ -1,0 +1,69 @@
+Last updated: October 3, 2026.
+
+1. CONTROLLER AND SCOPE
+
+This policy describes how information is processed in mobile apps maintained by Cyberware Tecnologias LTDA and published on Google Play. It covers all our apps. Each section applies when the relevant feature or service is present in the app you use. Examples specific to Imagens com Frases are identified in the text. Privacy contact: cyberware.tecnologias@gmail.com.
+
+2. INFORMATION PROCESSED BY THE APP
+
+Imagens com Frases works without registration or login and does not request your name, phone number, address, identity documents, or payment details to use its features. Other apps may use anonymous technical authentication as described below. The absence of personal registration does not mean that no data is processed: the services used receive technical information and identifiers.
+
+• Content and connection: apps with remote content make network requests to query catalogs and load text, images, or videos. Cloud Firestore and Cloud Storage for Firebase, Google services, are used in apps with these integrations. Requests include an IP address and references to the requested content. In Imagens com Frases, personal photos and user posts are not uploaded to this catalog.
+• Local data: preferences, favorites, download records, content references, and notification or review controls remain on the device according to each app's features. In Imagens com Frases, this includes the daily image reference and date, the date, number, and codes of recent downloads, and dates or records of permission and review prompts; our code does not send these records to Firestore as a personal history. Apps also cache copies of content to avoid repeated downloads.
+• Anonymous access: some apps use Firebase Authentication to create an anonymous technical identity and allow access to content without requiring the user's email or password. The service processes a user identifier, IP address, and technical connection information for authentication, security, and abuse prevention.
+• Region: in Imagens com Frases, we check the country of the mobile network, SIM, or device regional settings to determine feature availability. This check does not use GPS or require access to precise location.
+• Support: if you send an email, we receive your email address and any information you choose to include so we can respond to your request.
+
+3. ADVERTISING
+
+Apps that display ads use Google AdMob through the Google Mobile Ads SDK. Ads may be personalized according to app, service, and device settings. The SDK automatically collects and shares IP addresses, which may indicate approximate location; interactions such as app launches and taps; diagnostic information; and device or account identifiers, including the Android advertising ID and App Set ID when available. These data are used for advertising, measurement, and fraud prevention.
+
+Some apps also integrate Pangle as a mediated advertising provider. When used, this service may process identifiers, device information, IP addresses, and ad interactions for advertising, measurement, and security, according to its policy.
+
+In Imagens com Frases, we also send keywords and a reference to the displayed category to provide advertising context. You can manage the advertising ID and ad privacy options in Android settings, depending on the operating system version. These controls do not necessarily stop all data processing by the advertising service. If the app provides consent or privacy options, you can also use them; the availability and requirements of that flow depend on the app and region.
+
+4. NOTIFICATIONS
+
+Apps with notifications use Firebase Cloud Messaging to send information about content, updates, or special dates. The service uses installation or registration identifiers to deliver messages. Technical registration may take place before permission to display notifications. In Imagens com Frases, it takes place when the app starts in countries where the feature is available; on Android 13 or later, permission is requested when you access the Daily Image screen.
+
+You can deny permission or turn off notifications in Android settings and continue using the other features. Disabling notification display is not the same as deleting identifiers held by Firebase.
+
+5. DOWNLOADS, PERMISSIONS, AND SHARING
+
+Apps with downloads create image or video files on your device when you request saving. Storage read or write permissions may be requested depending on the app, Android version, and operation. You can review or revoke permissions in system settings; denying them may limit the relevant feature. In Imagens com Frases, downloads create a JPEG in the gallery, require storage write permission only on Android 8 and 9, and do not offer selection or upload of personal photos or request access to your camera, microphone, contacts, or precise location.
+
+When you share, the app you choose receives access to the selected content, such as an image, video, text, or link. This transfer does not grant Cyberware access to your account, password, contacts, or conversations in WhatsApp, Facebook, Instagram, Telegram, or other destinations. Processing by the destination follows that service's policy. When offered, reviews through Google Play follow Google's rules and policy.
+
+6. PURPOSES AND SERVICE PROVIDERS
+
+We process information to deliver content, load and save files, enable sharing, manage limits and preferences, authenticate technical access when needed, provide notifications, fund services through ads, and handle requests. In Imagens com Frases, the version reviewed in October 2026 does not use Firebase Analytics or Firebase Crashlytics. Advertising services' own measurement and diagnostics remain active.
+
+The providers identified in this policy receive the data needed for the features used in each app. Sharing with a content destination takes place at your choice. Data may also be processed to meet legal obligations and protect rights. Each operation must comply with the applicable legal basis and, where required, specific consent. Reading this policy or agreeing to the Terms of Use does not provide blanket consent for all purposes.
+
+Information about the services used:
+• Google Privacy Policy: https://policies.google.com/privacy
+• Google advertising: https://policies.google.com/technologies/ads
+• Privacy and security in Firebase: https://firebase.google.com/support/privacy
+• Pangle end-user privacy: https://www.pangleglobal.com/privacy/enduser
+
+7. SECURITY AND INTERNATIONAL TRANSFERS
+
+Google AdMob and Firebase services use encryption in transit in their SDK connections. Cache and preferences are kept in the app's storage; files saved to the gallery may be accessed according to your device's permissions and settings. Providers may process information on servers in other countries in accordance with their terms, policies, and applicable transfer mechanisms.
+
+8. RETENTION AND DELETION
+
+Local records remain until they are replaced during app operation, removed by clearing app data, or deleted when the app is uninstalled. Android or the clear-cache option may remove cached files. Depending on the app and Android settings, local data may be included in backups or device transfers and restored; backups are disabled in Imagens com Frases. Files saved in the gallery and shared copies are not deleted when you clear data or uninstall; you must remove them from the gallery or destination service.
+
+Retention of identifiers, including anonymous technical identities, and records held by providers follows the purposes and periods described in those services' policies. Clearing data or uninstalling the app does not guarantee immediate deletion of server records. Information sent to support is retained while needed to respond, comply with legal obligations, or defend rights. You can request information about retention and deletion using the contact in this policy.
+
+9. YOUR RIGHTS
+
+Under applicable law, you may request confirmation of processing and access to data, correction, information about sharing, portability where applicable, anonymization, blocking or deletion of data, and withdrawal of consent when consent is the legal basis for processing. You may also object to unlawful processing and complain to the competent authority, such as Brazil's National Data Protection Authority.
+
+Send your request to cyberware.tecnologias@gmail.com and indicate the app's name. We may request only the information necessary to verify your request and locate data, especially when the app operates without personal registration or uses anonymous identification. Requests will be assessed according to applicable legal and technical obligations and limitations; data processed by service providers may also require those services' own procedures.
+
+10. AGE AND CHANGES
+
+Observe each app's age rating, target audience, and Terms of Use. Imagens com Frases requires users to be at least 13 under its terms and does not verify age. Minors should use the services with guidance and authorization from their parents or legal guardians, subject to local rules. Guardians may contact us to ask questions or request action concerning the processing of minors' data.
+
+This policy may be updated to reflect changes in the apps or the services they use. The date above identifies this version. Material changes will be communicated through available channels, and new consent will be requested when required by law.

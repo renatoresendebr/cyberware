@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Política de Privacidade dos aplicativos da Cyberware Tecnologias LTDA. Português, English, Español.">
+<title>Política de Privacidade — Cyberware Tecnologias LTDA</title>
+<style>
+  :root { --bg:#0f1220; --card:#1a1f36; --text:#e6e9f5; --dim:#b7bfdc; --accent:#82c9bc; --line:#343e62; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; line-height:1.65; }
+  .wrap { max-width:820px; margin:0 auto; padding:32px 20px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; line-height:1.25; }
+  h2 { font-size:1.12rem; margin:32px 0 12px; color:var(--accent); }
+  p, li { overflow-wrap:anywhere; }
+  .dim { color:var(--dim); font-size:.95rem; }
+  a { color:var(--accent); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 24px; margin:20px 0 40px; }
+  .lang-switch { display:flex; gap:8px; margin-bottom:24px; flex-wrap:wrap; }
+  .lang-switch a { display:inline-block; background:var(--card); color:var(--text); border:1px solid var(--line); border-radius:8px; padding:8px 16px; text-decoration:none; }
+  .lang-switch a.active { background:var(--accent); color:#0f1220; border-color:var(--accent); font-weight:600; }
+  a:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+  ul { padding-left:22px; }
+  [hidden] { display:none; }
+  @media (max-width:480px) { .wrap { padding:24px 14px 40px; } .card { padding:16px; } }
+  @media print { body { background:white; color:black; } .card { background:white; border:0; padding:0; } p, li { color:black; } h2, a { color:black; } .lang-switch { display:none; } }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <nav class="lang-switch" id="language-switch" aria-label="Idioma da política de privacidade">
+    <a id="btn-pt" href="?lang=pt#pt" lang="pt-BR" hreflang="pt-BR">Português</a>
+    <a id="btn-en" href="?lang=en#en" lang="en" hreflang="en">English</a>
+    <a id="btn-es" href="?lang=es#es" lang="es" hreflang="es">Español</a>
+  </nav>
+<!-- POLICY_SECTIONS -->
+</main>
+<script>
+  'use strict';
+  const languages = ['pt', 'en', 'es'];
+  const tags = { pt: 'pt-BR', en: 'en', es: 'es' };
+  const titles = { pt: 'Política de Privacidade', en: 'Privacy Policy', es: 'Política de Privacidad' };
+  const labels = { pt: 'Idioma da política de privacidade', en: 'Privacy policy language', es: 'Idioma de la política de privacidad' };
+
+  function selectLanguage(language) {
+    if (!languages.includes(language)) language = 'pt';
+    languages.forEach(code => {
+      const selected = code === language;
+      document.getElementById(code).hidden = !selected;
+      const link = document.getElementById('btn-' + code);
+      link.classList.toggle('active', selected);
+      if (selected) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+    document.documentElement.lang = tags[language];
+    document.title = titles[language] + ' — Cyberware Tecnologias LTDA';
+    document.getElementById('language-switch').setAttribute('aria-label', labels[language]);
+  }
+
+  function initialLanguage() {
+    const query = (new URLSearchParams(location.search).get('lang') || '').slice(0, 2).toLowerCase();
+    const fragment = location.hash.slice(1).toLowerCase();
+    const browser = (navigator.language || 'pt').slice(0, 2).toLowerCase();
+    return [query, fragment, browser].find(code => languages.includes(code)) || 'pt';
+  }
+
+  languages.forEach(code => {
+    document.getElementById('btn-' + code).addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      const url = new URL(location.href);
+      url.searchParams.set('lang', code);
+      url.hash = code;
+      history.pushState(null, '', url);
+      selectLanguage(code);
+    });
+  });
+  window.addEventListener('popstate', () => selectLanguage(initialLanguage()));
+  selectLanguage(initialLanguage());
+</script>
+</body>
+</html>

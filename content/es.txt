@@ -1,0 +1,69 @@
+Última actualización: 3 de octubre de 2026.
+
+1. RESPONSABLE Y ALCANCE
+
+Esta política describe el tratamiento de información en las aplicaciones móviles mantenidas por Cyberware Tecnologias LTDA y publicadas en Google Play. Abarca todas nuestras aplicaciones. Cada sección se aplica cuando la función o el servicio correspondiente está presente en la aplicación que utiliza. Los ejemplos específicos de Imagens com Frases se identifican en el texto. Contacto para asuntos de privacidad: cyberware.tecnologias@gmail.com.
+
+2. INFORMACIÓN TRATADA POR LA APLICACIÓN
+
+Imagens com Frases funciona sin registro ni inicio de sesión y no solicita nombre, teléfono, dirección, documentos de identidad ni datos de pago para utilizar sus funciones. Otras aplicaciones pueden utilizar autenticación técnica anónima, como se describe a continuación. La ausencia de registro personal no significa que no se traten datos: los servicios utilizados reciben información técnica e identificadores.
+
+• Contenido y conexión: las aplicaciones con contenido remoto hacen solicitudes de red para consultar catálogos y cargar textos, imágenes o vídeos. Cloud Firestore y Cloud Storage for Firebase, servicios de Google, se utilizan en las aplicaciones con estas integraciones. Las solicitudes incluyen una dirección IP y referencias al contenido solicitado. En Imagens com Frases, no se suben fotos personales ni publicaciones del usuario a este catálogo.
+• Datos locales: las preferencias, los favoritos, los registros de descarga, las referencias de contenido y los controles de notificaciones o valoración permanecen en el dispositivo según las funciones de cada aplicación. En Imagens com Frases, esto incluye la referencia y la fecha de la imagen del día, la fecha, la cantidad y los códigos de las descargas recientes y las fechas o registros de solicitudes de permiso y valoración; nuestro código no los envía a Firestore como historial personal. Las aplicaciones también conservan copias de contenido en caché para evitar descargas repetidas.
+• Acceso anónimo: algunas aplicaciones usan Firebase Authentication para crear una identidad técnica anónima y permitir el acceso al contenido sin exigir correo electrónico ni contraseña. El servicio trata un identificador de usuario, una dirección IP e información técnica de conexión para autenticación, seguridad y prevención de abusos.
+• Región: en Imagens com Frases, consultamos el país de la red móvil, de la SIM o de la configuración regional del dispositivo para determinar la disponibilidad de funciones. Esta consulta no usa GPS ni requiere acceso a la ubicación precisa.
+• Atención: si envía un correo electrónico, recibimos su dirección y la información que decida incluir para responder a su solicitud.
+
+3. ANUNCIOS
+
+Las aplicaciones que muestran anuncios utilizan Google AdMob mediante el Google Mobile Ads SDK. Los anuncios pueden personalizarse según la configuración de la aplicación, del servicio y del dispositivo. El SDK recopila y comparte automáticamente direcciones IP, que pueden indicar una ubicación aproximada; interacciones como la apertura de la aplicación y los toques; información de diagnóstico; e identificadores de dispositivo o cuenta, incluidos el identificador de publicidad de Android y el App Set ID cuando estén disponibles. Estos datos se utilizan para publicidad, medición y prevención del fraude.
+
+Algunas aplicaciones también integran Pangle como proveedor de anuncios mediante mediación. Cuando se utiliza, este servicio puede tratar identificadores, información del dispositivo, direcciones IP e interacciones con anuncios para publicidad, medición y seguridad, conforme a su política.
+
+En Imagens com Frases, también enviamos palabras clave y una referencia a la categoría mostrada para contextualizar los anuncios. Puede gestionar el identificador de publicidad y las opciones de privacidad de anuncios en los ajustes de Android, según la versión del sistema. Estos controles no interrumpen necesariamente todo el tratamiento de datos por el servicio de anuncios. Si la aplicación ofrece opciones de consentimiento o privacidad, también podrá utilizarlas; la existencia y los requisitos de ese proceso dependen de la aplicación y de la región.
+
+4. NOTIFICACIONES
+
+Las aplicaciones con notificaciones usan Firebase Cloud Messaging para enviar información sobre contenido, novedades o fechas especiales. El servicio utiliza identificadores de instalación o de registro para dirigir mensajes. El registro técnico puede realizarse antes del permiso para mostrar notificaciones. En Imagens com Frases, se realiza al abrir la aplicación en los países donde la función está disponible; en Android 13 o superior, el permiso se solicita al acceder a la Imagen del Día.
+
+Puede rechazar el permiso o desactivar las notificaciones en los ajustes de Android y seguir utilizando las demás funciones. Desactivar la visualización de notificaciones no equivale a eliminar los identificadores conservados por Firebase.
+
+5. DESCARGAS, PERMISOS Y COMPARTIR CONTENIDO
+
+Las aplicaciones con descargas crean archivos de imagen o vídeo en el dispositivo cuando solicita guardarlos. Pueden solicitar permisos de lectura o escritura en el almacenamiento según la aplicación, la versión de Android y la operación. Puede revisar o revocar permisos en los ajustes del sistema; rechazarlos puede limitar la función correspondiente. En Imagens com Frases, las descargas crean un JPEG en la galería, exigen permiso de escritura solo en Android 8 y 9 y no permiten seleccionar ni subir fotos personales ni solicitan cámara, micrófono, contactos o ubicación precisa.
+
+Al compartir, la aplicación que usted elija recibe acceso al contenido seleccionado, como una imagen, un vídeo, un texto o un enlace. Este envío no concede a Cyberware acceso a su cuenta, contraseña, contactos ni conversaciones en WhatsApp, Facebook, Instagram, Telegram u otros destinos. El tratamiento realizado por el destino sigue la política de ese servicio. Cuando se ofrece, la valoración mediante Google Play sigue las reglas y la política de Google.
+
+6. FINALIDADES Y PROVEEDORES DE SERVICIOS
+
+Tratamos información para ofrecer contenido, cargar y guardar archivos, permitir compartirlos, gestionar límites y preferencias, autenticar el acceso técnico cuando sea necesario, proporcionar notificaciones, financiar servicios con anuncios y atender solicitudes. En Imagens com Frases, la versión revisada en octubre de 2026 no utiliza Firebase Analytics ni Firebase Crashlytics. La medición y los diagnósticos propios de los servicios de anuncios siguen activos.
+
+Los proveedores identificados en esta política reciben los datos necesarios para las funciones utilizadas en cada aplicación. Compartir contenido con un destino se realiza por su elección. Los datos también pueden tratarse para cumplir obligaciones legales y proteger derechos. Cada operación debe respetar la base jurídica aplicable y, cuando sea necesario, un consentimiento específico. Leer esta política o aceptar los Términos de Uso no constituye un consentimiento general para todas las finalidades.
+
+Información sobre los servicios utilizados:
+• Privacidad de Google: https://policies.google.com/privacy
+• Publicidad de Google: https://policies.google.com/technologies/ads
+• Privacidad y seguridad en Firebase: https://firebase.google.com/support/privacy
+• Privacidad para usuarios de Pangle: https://www.pangleglobal.com/privacy/enduser
+
+7. SEGURIDAD Y TRANSFERENCIAS INTERNACIONALES
+
+Los servicios Google AdMob y Firebase utilizan cifrado en tránsito en las conexiones de sus SDKs. La caché y las preferencias se conservan en el almacenamiento de la aplicación; los archivos guardados en la galería pueden ser accesibles según los permisos y ajustes del dispositivo. Los proveedores pueden tratar información en servidores de otros países conforme a sus términos, políticas y los mecanismos de transferencia aplicables.
+
+8. CONSERVACIÓN Y ELIMINACIÓN
+
+Los registros locales permanecen hasta que se sustituyen durante el funcionamiento de la aplicación, se eliminan al borrar los datos o se borran al desinstalarla. Android o la opción de borrar caché pueden eliminar los archivos de caché. Según la aplicación y los ajustes de Android, los datos locales pueden incluirse en copias de seguridad o transferencias de dispositivo y restaurarse; en Imagens com Frases, la copia de seguridad está desactivada. Los archivos guardados en la galería y las copias compartidas no se eliminan al borrar datos o desinstalar; debe quitarlos de la galería o del servicio de destino.
+
+La conservación de identificadores, incluidas las identidades técnicas anónimas, y registros en los proveedores sigue las finalidades y los plazos descritos en las políticas de esos servicios. Borrar datos o desinstalar la aplicación no garantiza la eliminación inmediata de los registros en los servidores. La información enviada a atención se conserva mientras sea necesaria para responder, cumplir obligaciones legales o defender derechos. Puede solicitar información sobre conservación y eliminación mediante el contacto de esta política.
+
+9. SUS DERECHOS
+
+Según la legislación aplicable, puede solicitar confirmación y acceso a los datos, corrección, información sobre su comunicación a terceros, portabilidad cuando proceda, anonimización, bloqueo o eliminación de datos y retirada del consentimiento cuando esta sea la base del tratamiento. También puede oponerse a tratamientos ilícitos y presentar una reclamación ante la autoridad competente, como la Autoridad Nacional de Protección de Datos de Brasil.
+
+Envíe su solicitud a cyberware.tecnologias@gmail.com e indique el nombre de la aplicación. Podemos solicitar únicamente la información necesaria para verificar la solicitud y localizar datos, especialmente cuando la aplicación funciona sin registro personal o usa identificación anónima. Las solicitudes se analizarán conforme a las obligaciones y limitaciones legales y técnicas aplicables; los datos tratados por los proveedores también pueden requerir los procedimientos propios de esos servicios.
+
+10. EDAD Y CAMBIOS
+
+Respete la clasificación por edades, el público objetivo y los Términos de Uso de cada aplicación. Imagens com Frases exige al menos 13 años en sus términos y no verifica la edad. Los menores deben utilizar los servicios con la orientación y autorización de sus padres o responsables legales, respetando las reglas locales. Los responsables pueden ponerse en contacto para aclarar dudas o solicitar medidas sobre el tratamiento de datos de menores.
+
+Esta política puede actualizarse para reflejar cambios en las aplicaciones o en los servicios utilizados. La fecha indicada identifica esta versión del texto. Los cambios relevantes se comunicarán por los medios disponibles y se solicitará un nuevo consentimiento cuando lo exija la legislación.
